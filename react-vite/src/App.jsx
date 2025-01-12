@@ -1,11 +1,10 @@
 import React from 'react'
-import Welcomemsg from './components/welcomemsg'
-import Jsxrules from './components/jsxrules'
+import Mapping_of_array from './components/map'
 
 const App = () => {
   return (
     <div>
-     <Jsxrules/>
+     <Mapping_of_array/>
     </div>
         
     
