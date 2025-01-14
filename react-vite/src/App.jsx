@@ -1,13 +1,13 @@
 import React from 'react'
-import Mapping_of_array from './components/map'
+import Weather from './components/Weather'
 
 const App = () => {
   return (
     <div>
-     <Mapping_of_array/>
+      <Weather temperature='26'/>
+      <Weather temperature='16'/>
+
     </div>
-        
-    
   )
 }
 
