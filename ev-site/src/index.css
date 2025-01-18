@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+}
+
+.clickers {
+  height: auto;
+  width: auto;
+}
+.clicked li {
+  margin-left: 55px;
+  padding: 10px;
+  font-size: 4rem;
+}
+li:hover {
+  cursor: pointer;
+}
+.orange {
+  color: orange;
+}
+.white {
+  color: white;
+}
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 100;
+  }
+}
+
+.fade-in {
+  animation: fadein .5s ease-in-out;
+}
