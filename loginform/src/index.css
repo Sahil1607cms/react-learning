@@ -86,3 +86,6 @@ body{
   width: 100px;
   text-align: center;
 }
+.submit:hover,.gray:hover{
+  cursor: pointer;
+}
