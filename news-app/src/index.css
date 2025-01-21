@@ -1,0 +1,11 @@
+.cursor-pointer:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.container{
+    position: relative;
+    margin:0;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
