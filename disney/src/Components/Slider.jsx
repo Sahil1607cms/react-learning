@@ -8,10 +8,10 @@ const Slider = () => {
   const screenWidth=window.innerWidth;
   const elementRef=useRef()
   const slideright=(element)=>{
-    element.scrollLeft+=screenWidth-120
+    element.scrollLeft+=screenWidth-140
   }
   const slideleft=(element)=>{
-    element.scrollLeft-=screenWidth-120
+    element.scrollLeft-=screenWidth-140
 }
   useEffect(() => {
     fetch(
